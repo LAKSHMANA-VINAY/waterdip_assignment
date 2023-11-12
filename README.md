@@ -81,7 +81,7 @@ Request5 [Method: PUT] : http://127.0.0.1:5000/tasks/1
 Body:
 
 {
-    "title":"c programming"
+    "title":"C Programming"
 }
 
 Output 5:
@@ -105,7 +105,7 @@ Body:
             "title":"Java Programming"
         },
         {
-            "title":"Pyton Programming"
+            "title":"Python Programming"
         }
     ]
 }
