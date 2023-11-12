@@ -22,7 +22,7 @@ Your application will accept JSON and/or URL parameters and will return JSON dat
 
 Sample Input 1: (Create A new Task)
 
-Request1 [Method: POST] = http://127.0.0.1:5000/tasks
+Request1 [Method: POST] = http://localhost:5000/tasks
 
 Body:
 
@@ -40,7 +40,7 @@ Output 1:
 
 Sample Input 2: (Get all The Tasks)
 
-Request2 [Method: GET] = http://127.0.0.1:5000/tasks
+Request2 [Method: GET] = http://localhost:5000/tasks
 
 Output 2:
 
@@ -54,7 +54,7 @@ Output 2:
 
 Sample Input 3: (Get Specific Task)
 
-Request3 [Method: GET] : http://127.0.0.1:5000/tasks/1
+Request3 [Method: GET] : http://localhost:5000/tasks/1
 
 Output 3:
 
@@ -66,7 +66,7 @@ Output 3:
 
 Sample Input 4: (Delete Specific Task)
 
-Request4 [Method: Delete] : http://127.0.0.1:5000/tasks/1
+Request4 [Method: Delete] : http://localhost:5000/tasks/1
 
 Output 4:
 
@@ -76,7 +76,7 @@ Output 4:
 
 Sample Input 5: (Modify Specific Task)
 
-Request5 [Method: PUT] : http://127.0.0.1:5000/tasks/1
+Request5 [Method: PUT] : http://localhost:5000/tasks/1
 
 Body:
 
@@ -94,7 +94,7 @@ Output 5:
 
 Sample Input 6 :(Add multiple Tasks)
 
-Request6 [Method: POST] : http://127.0.0.1:5000/tasks/bulk
+Request6 [Method: POST] : http://localhost:5000/tasks/bulk
 
 Body:
 
@@ -118,7 +118,7 @@ Output 6:
 
 Sample Input 7: (Delete Multiple Tasks)
 
-Request7 [Method: Delete]: http://127.0.0.1:5000/tasks/bulk
+Request7 [Method: Delete]: http://localhost:5000/tasks/bulk
 
 Body:
 
